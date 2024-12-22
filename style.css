@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333333;
+    text-align: center;
+  }
+  
+  .form-section, .resume-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ddd; /* Added border */
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555; /* Slightly darker color for labels */
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 12px; /* Added padding */
+    border: 2px solid #cccccc; /* Styled borders */
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #4CAF50; /* Highlight color on focus */
+    outline: none; /* Remove default outline */
+    background-color: #f0fff0; /* Light green background on focus */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 14px; /* Increased padding */
+    border-radius: 6px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
+  
+  .resume-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #4CAF50; /* Green border for resume display */
+    border-radius: 8px;
+    background: #ffffff; /* White background */
+  }
+  
+  .resume-section h3 {
+    color: #4CAF50; /* Green headers for sections */
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Section underlines */
+    padding-bottom: 5px;
+  }
+  
+  .resume-section p {
+    margin: 10px 0; /* Consistent spacing */
+    color: #555; /* Text color */
+    line-height: 1.5; /* Improve readability */
+  }
+  
